@@ -16,8 +16,9 @@ print(validate_age(None)) # Q1c: should be False FALSE
 
 # Fix below ↓
 def validate_age_fixed(age):
-    # YOUR CODE HERE
-    pass
+    if age is None:
+     return False
+    return True
 
 # Question 2 — What prints?
 user_input = "  "     # user entered just spaces!
