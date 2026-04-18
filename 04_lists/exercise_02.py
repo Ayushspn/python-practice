@@ -26,6 +26,6 @@ print(flat)             # Q4 [1,2,3,4,5,6,7,8,9]
 scores = [45, 82, 91, 38, 76, 55, 67]
 passed = [s for s in scores if s >= 60]
 failed = [s for s in scores if s < 60]
-print(passed)           # Q5a
-print(failed)           # Q5b
-print(len(passed))      # Q5c
+print(passed)           # Q5a [82,91,76,67]
+print(failed)           # Q5b [45,38,55]
+print(len(passed))      # Q5c 4
